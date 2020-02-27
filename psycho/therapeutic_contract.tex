@@ -1,0 +1,68 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{polyglossia} 
+\setdefaultlanguage[babelshorthands=true]{russian}
+\setotherlanguage{english}
+\defaultfontfeatures{Ligatures=TeX,Mapping=tex-text}
+
+%\setmainfont{AcademyPSCyr}
+%\setmainfont{Old Standard}
+\setmainfont{Linux Libertine}
+ 
+\usepackage{xcolor}
+\definecolor{darkblue}{HTML}{003153}
+\usepackage{graphicx}
+\usepackage {textcomp}
+\usepackage[twoside,left=2.5cm,right=3cm,top=3cm,bottom=3cm,bindingoffset=0cm]{
+geometry}
+\usepackage{epigraph}
+\renewcommand{\epigraphsize}{\footnotesize}
+\epigraphrule=0pt
+\epigraphwidth=8cm
+\usepackage{soul, xspace}
+\xspaceaddexceptions{ < ) }
+\sodef\so{}{.1em}{1em}{.3em plus.05em minus.05em}
+\newcommand{\ldotst}{\so{...}\xspace}
+\newcommand{\ldotsq}{\so{?\hbox{\hspace{-.212em}}..}\xspace}
+\newcommand{\ldotse}{\so{!..}\xspace}
+\newcommand{\razd}{~\\{\centering\Large\bfseries$\ast \ast \ast$\par}~\\}
+\newcommand{\spacing}{\textcolor{red}{\textbf{(разрыв)}}}
+\newcommand{\authornote}{\textit{(прим. авт.)}}
+\newcommand{\mulang}[3]{#2}% 1 -- tag, 2 -- ru, 3 -- en
+
+\usepackage{hyperref}
+\hypersetup{
+colorlinks=true,
+linkcolor=darkblue,          % color of internal links (change box color with 
+citecolor=darkblue,        % color of links to bibliography
+filecolor=darkblue,      % color of file links
+urlcolor=darkblue     
+}
+
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0mm}
+\fancyhead{}
+\fancyfoot{}
+
+\begin{document}
+\section*{Терапевтический контракт}
+
+\subsection*{Цели}
+
+\begin{enumerate}
+\item Научиться управлять тревожностью, насколько это возможно.
+\item Научиться управлять агрессией.
+Найти адекватный выход желанию причинять боль.
+\item Научиться управлять мыслями о собственной исключительности, желание признания и особого отношения.
+Мне они доставляют дискомфорт "--- трудно общаться с людьми.
+\item Научиться управлять обидчивостью.
+\item Мне сложно общаться с людьми.
+Научиться относиться к людям благожелательно, без настороженности.
+\item Научиться навыкам, необходимым для реализации в сфере личных отношений и секса.
+\item Научиться грамотно расходовать силы и не работать на износ.
+\item Я всё ещё нахожусь во власти гендерных стереотипов, а значит "--- мне трудно принимать себя и многих окружающих.
+Научиться снижать их влияние на мои мысли и действия.
+\end{enumerate}
+
+\end{document}
